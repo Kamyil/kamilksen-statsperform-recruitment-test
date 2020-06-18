@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamil Kseń - Recruitment</title>
+    <link rel="stylesheet" href="./public/build/css/style.css">
+</head>
+<body>
+    <div class="repos__addForm">
+        <code class="repos__input"><span class="code__tag">repo</span> <span class="code__attributeName">data-user=</span><span class="code__attributeValue">"<input type='text' class='repos__input--dataUser'>"</span> <span class="code__attributeName">data-update=</span><span class='code__attributeValue'>"<input type='text' class='repos__input--dataUpdate'>"</span></code>
+        <button class="btn--primary--sm repos__addBtn">Add</button>
+        <button class="btn--secondary--sm repos__replaceAllTagsBtn">Replace tags</button>
+    </div>
+    <!-- The container of all repos tags -->
+    <div class="repos__tags-container">
+        <!-- Example repos to replace on init -->
+        <repos data-user="devballteam" data-update="2019-05-01"></repos>
+    </div>
+
+    <!--  -->
+    <div class="repos__userlist">
+        <div class="repos__user">
+            <h1 class="repos__username"></h1>
+            <table class="repos__table">
+            </table>
+        </div>
+    </div>
+    <div>
+        
+    </div>
+    <script src="./public/build/js/bundle.js"></script>
+</body>
+</html>

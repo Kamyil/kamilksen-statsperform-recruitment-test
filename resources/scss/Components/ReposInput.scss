@@ -1,0 +1,22 @@
+.repos__input {
+    &::before {
+        content: '<';
+        color: map-get($code-colors, curlyBraces);
+    }
+
+    &::after {
+        content: '>';
+        color: map-get($code-colors, curlyBraces);
+    }
+
+    input {
+        width: 120px;
+        background-color: #303030;
+        text-align: center;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        color: map-get($code-colors, attributeValue);
+        font-family: 'Menlo';
+    }
+}

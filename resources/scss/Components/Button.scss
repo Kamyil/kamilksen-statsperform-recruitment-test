@@ -1,0 +1,44 @@
+@import "../variables.scss";
+@import "../Mixins//subtleShadow.scss";
+
+@mixin btn($type: 'primary', $width: 130px, $height: 50px) {
+    @if ($type == 'primary') {
+        background-color: $color-primary;
+    } @else {
+        background-color: #404040;
+    }
+    width: $width;
+    height: $height;
+    border-radius: 5px;
+    font-weight: 500;
+    border: 0;
+    padding: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: ligthen($color-primary, 50%);
+        transform: scale(1.025);
+        transition: ease-in-out .25s;
+        @include subtleShadow;
+    }
+
+    &:active {
+        transform: scale(1);
+    }
+}
+
+.btn {
+    &--primary {
+        @include btn('primary');
+    }
+    &--primary--sm {
+        @include btn('primary', 100px, 40px);
+    }
+    &--secondary {
+        @include btn('secondary');
+    }
+    &--secondary--sm {
+        @include btn('secondary', 100px, 40px);
+        color: white;
+    }
+}
