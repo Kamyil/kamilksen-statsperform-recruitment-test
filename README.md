@@ -4,7 +4,7 @@ Applies for: Front-End Developer role
 
 # Info about project itself
 
-Application is pushed with it's compiled assets, to be sure that other Node version on other PC's will not lead Webpack to fail compilation. In normal work day `I DO NOT PUSH PREPARED JS/CSS TO GIT`.
+Application is pushed with it's compiled assets, to be sure that different Node version on different PC's will not lead Webpack to fail compilation. In normal work day `I DO NOT PUSH PREPARED JS/CSS TO GIT`.
 If you want to run this app, you just need to run `index.html` in the browser. Nothing more, nothing less.
 However if you want to have some fun with TS'es or SCSSes of this project, you need to do some steps to easly work on this project
 
@@ -16,10 +16,11 @@ However if you want to have some fun with TS'es or SCSSes of this project, you n
 
 If you find any issue with compiling the project, it might be connected with Node/NPM version. In that case use something like NVM to switch version
 I have this version and it works perfectly:
+
 - Node: 10.16.3
 - NPM: 6.9.0
 
-Also in config.json there's my Github OAuth key to let this app fetch user repos unlimited times. I have in mind that it's not safe AND I DO NOT DO THAT DURING NORMAL DAY WORK, but since it's only small, showcase project I decided to make your life easier and do not force you to generate that key.
+Also in config.json there's my Github OAuth key to let this app fetch user repos unlimited times. I have in mind that it's not safe AND I DO NOT DO THAT DURING NORMAL DAY WORK, but since it's only small, showcase project I decided to make your life easier and do not force you to generate that key. I will remove after recrutation process
 
 ## Project structure
 - node_modules/ (after `npm install` / `npm i`) Needed modules to compile project and get type definitions.
