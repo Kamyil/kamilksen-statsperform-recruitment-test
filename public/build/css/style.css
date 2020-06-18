@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Oswald:wght@300;
+ 
+ 500&display=swap);
 .repos__userlist {
   max-width: 1300px; }
 
@@ -151,5 +153,3 @@ body {
   background-color: #202020;
   color: #fff;
   font-weight: 300; }
-
-/*# sourceMappingURL=style.css.map*/
