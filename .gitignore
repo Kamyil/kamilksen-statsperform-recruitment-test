@@ -1,3 +1,6 @@
+
+# Cache
+.awcache
 # Logs
 logs
 *.log

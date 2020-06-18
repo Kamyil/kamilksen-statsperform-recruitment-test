@@ -1,0 +1,30 @@
+@import "../variables.scss";
+
+.repos__table {
+    border-spacing: 5px;
+    text-align: center;
+    width: 1000px;
+    thead {
+        background-color: $color-primary;
+        color: #202020;
+
+        th {
+            border-radius: 5px;
+            padding: 5px 0;
+        }
+    }
+
+    tbody {
+        tr {
+            margin: 10px 0;
+            td {
+                background-color: #404040;
+                border-radius: 5px;
+                max-width: 650px;
+                &:last-child {
+                    background-color: rgba(0, 0, 0, 0);
+                }
+            }
+        }
+    }
+}

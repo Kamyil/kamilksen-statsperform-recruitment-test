@@ -1,0 +1,7 @@
+@mixin subtleShadow($intense:0.11, $inset: false) {
+	@if $inset {
+		box-shadow: inset 0 0 25px 0 rgba(0,0,0,$intense);
+	} @else {
+		box-shadow: 0 0 25px 0 rgba(0,0,0,$intense);
+	}
+}

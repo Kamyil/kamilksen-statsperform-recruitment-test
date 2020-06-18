@@ -1,0 +1,13 @@
+.code {
+    &__tag {
+        color: map-get($code-colors, tag);
+    }
+
+    &__attributeName {
+        color: map-get($code-colors, attributeName);
+    }
+
+    &__attributeValue {
+        color: map-get($code-colors, attributeValue);
+    }
+}
