@@ -127,7 +127,7 @@ export const ReposService = (() => {
   }
 })();
 ```
-Since... those modules works like Classes with static methods, I can use it's methods without event instatiating it. But I choosed to write in OOP, since it's more popular :)
+Since... those modules work like Classes with static methods, I can use it's methods without event instatiating it. But I choosed to write in OOP, since it's more popular :)
 
 ## Why do you not use export default
 I'm not stubborn about it but... I don't like export default very much. It allows to use modules named differently in their references which can lead to huge file chaos. I prefer to use original filenames and rename it with `import Something as SomethingElse from '...'` syntax ONLY IF IT'S NEEDED!
